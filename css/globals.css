@@ -2,28 +2,24 @@
 
 * {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 :root {
-    --accent-color: #a5c7cf;
-    --text-color: #000000;
-    --border-color: #000000;
-    --link-color: rgb(0, 0, 238);
-    --background-color: white;
-    scroll-behavior: smooth;
+    --background-color-light: white;
+    --background-color-dark:  #a5c7cf;
+    --text-color: black;
+    --text-color-alternate:   #a5c7cf;
+    --link-color: blue;
+    --border-color: black;
     font-family: 'DotGothic16', sans-serif;
-    color: var(--text-color);
+    scroll-behavior: smooth;
 }
 
 img {
     display: block;
     width: 100%;
-}
-
-a {
-    color: var(--link-color);
 }
 
 .container {
